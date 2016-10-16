@@ -1,0 +1,30 @@
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol li{list-style:none;}
+input,select,textarea{outline:none;border:none;background:none;}
+textarea{resize:none;}
+a{
+    text-decoration:none;
+    display: block;
+    color: #ffffff;
+}
+img{
+    border:none;
+    display: block;
+}
+
+/*清浮动*/
+.clearfloat{
+    zoom:1;
+}
+.clearfloat:after{
+    display:block;
+    clear:both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+;
+}
